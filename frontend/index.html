@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebRTC client</title>
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <h1>WebRTC client page</h1>
+
+  <video id="localVideo" autoplay playsinline controls></video>
+  <video id="remoteVideo" autoplay playsinline controls></video>
+
+  <div>
+    <button id="startButton">Start</button>
+    <button id="callButton">Call</button>
+    <button id="hangupButton">Hang Up</button>
+  </div>
+
+  
+  <!-- In computer programming, a shim is a library that transparently intercepts API calls and changes the arguments passed, handles the operation itself or redirects the operation elsewhere. Shims can be used to support an old API in a newer environment, or a new API in an older environment. -->
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <!-- <script src="../node_modules/socket.io/client-dist/socket.io.min.js"></script> -->
+  <script src="js/main.js"></script>
+</body>
+</html>

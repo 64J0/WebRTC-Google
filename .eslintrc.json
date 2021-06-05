@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["google"],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "require-jsdoc": "off",
+    "object-curly-spacing": ["error", "always"],
+    "new-cap": "off",
+    "no-unused-vars": "warn"
+  }
+}

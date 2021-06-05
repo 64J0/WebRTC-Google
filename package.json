@@ -1,0 +1,24 @@
+{
+  "name": "webrtc-google",
+  "version": "1.0.0",
+  "description": "Web RTC stands for Web Real Time Communications and is a open-source tecnology that enables clients to share their video/audio/data streams in a peer-to-peer architecture. Actually it's implemented in the major browsers developed by Apple, Google, Microsoft, Mozilla and Opera.",
+  "main": "index.js",
+  "scripts": {
+    "dev:back": "nodemon backend/server.js",
+    "prod:back": "node backend/server.js",
+    "lint": "eslint . --ext .js --ignore-pattern node_modules/ --fix"
+  },
+  "keywords": [],
+  "author": "64J0",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  }
+}
